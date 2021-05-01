@@ -1,6 +1,6 @@
 all:
-	meson bin --prefix /usr/
-	cd bin; meson configure -D python=true
+	meson bin
+	cd bin; meson configure
 	cd bin; ninja
 
 install:

@@ -7,7 +7,7 @@ Standards-Version: 3.9.8
 Homepage: https://widgetlords.com
 
 Package: libwidgetlords
-Architecture: armhf
+Architecture: arm64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Libraries and stuff for PI-SPI
  Libraries and stuff for PI-SPI and PI-SPI-DIN
